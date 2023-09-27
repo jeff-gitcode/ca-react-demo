@@ -1,0 +1,22 @@
+{
+  "name": "ca-react-demo",
+  "version": "1.0.0",
+  "description": "- [x] Playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-gitcode/ca-react-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeff-gitcode/ca-react-demo/issues"
+  },
+  "homepage": "https://github.com/jeff-gitcode/ca-react-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.7.0"
+  }
+}
