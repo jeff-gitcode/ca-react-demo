@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 
+test.beforeEach(async ({ page }) => {
+  // login
+});
+
 test('test', async ({ page }) => {
   // Recording...
   await page.goto('https://localhost:44413/');
