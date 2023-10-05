@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "- [x] Playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:firefox": "playwright test --browser=firefox",
+    "test:chromium": "playwright test --browser=chromium",
+    "test:webkit": "playwright test --browser=webkit",
+    "test:headful": "playwright test --headed",
+    "test:headless": "playwright test --headed=false",
+    "test:parallel": "playwright test --workers=2",
+    "test:watch": "playwright test --watch",
+    "test:report": "playwright test --reporter=list"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeff-gitcode/ca-react-demo.git"
